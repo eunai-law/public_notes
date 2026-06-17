@@ -1,5 +1,8 @@
 # Public Notes
 
+[![Status](https://img.shields.io/badge/status-in%20development-yellow?style=flat-square)](#status)
+[![Visibility](https://img.shields.io/badge/visibility-public-brightgreen?style=flat-square)](#)
+
 Published notes and findings from the dLaw team — written to be shared, learned from, and reused.
 
 ## What this is
@@ -46,6 +49,10 @@ When in doubt, leave it out or redact it. Write notes so they teach the *finding
 3. Write up the finding so a teammate can learn from it.
 4. **Double-check for secrets** before committing.
 5. Commit and push.
+
+## Status
+
+**In development.** This is a young, growing knowledge base — notes are added as the team finds things worth sharing. The repository is **public**, so everything here is intended to be safe to share openly and must remain free of secrets.
 
 ## Contributing
 
