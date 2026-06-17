@@ -19,6 +19,12 @@ This repo is public-facing and **must remain free of secrets**. Before writing o
 
 When in doubt, redact or leave it out. Notes should teach the *finding* without exposing the *secret*.
 
+**Secret check on every note.** Before writing any note, scan its content against the list above and explicitly confirm the result to the user. Call out anything that *looks* sensitive but is safe and why — for example: "Secret check passed — the IPs are RFC 5737 documentation ranges, the username and key filenames are non-sensitive, no credentials or real hostnames." If anything is a real secret, stop and redact before writing.
+
+## Getting the date/time
+
+Whenever you need the current date or time (for example, the `YYYYMMDD_HHMM` note timestamp), get it from the terminal via `date` — do not guess or rely on context. Example: `date +%Y%m%d_%H%M`.
+
 ## What belongs here
 
 - Findings and lessons learned from real work
