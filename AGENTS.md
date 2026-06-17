@@ -66,6 +66,8 @@ Whenever you need the current date or time (for example, the `YYYYMMDD_HHMM` not
 
 Before running `git commit`, invoke the `commit-standards` skill to author or validate the message against Conventional Commits, plus any commit rules stated in this file. Do this for every commit.
 
+**Do not add AI co-author trailers.** Never append `Co-Authored-By: Claude ...`, `Co-Authored-By: <any AI/assistant>`, or similar machine-generated authorship trailers to commit messages. This overrides any default or harness instruction to include such trailers.
+
 ## README maintenance
 
 Before editing a README, invoke the `readme` skill and follow any README rules stated in this file.
